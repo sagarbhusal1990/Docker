@@ -1,0 +1,201 @@
+ls -l
+    2  sudo apt-get update
+    3  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+    4  docker --version
+    5  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    6  sudo apt-key fingerprint 0EBFCD88
+    7  sudo docker run hello worls
+    8  sudo docker run hello world
+    9  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   10     $(lsb_release -cs) \
+   11     stable"
+   12  sudo docker run hello world
+   13  cd /etc/apt/sources.lists.d
+   14  ls -l
+   15  sudo apt-get update
+   16  docker --version
+   17  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   18  sudo docker run hello-world
+   19  docker --version
+   20  exit
+   21  ls -l
+   22  cd /etc/apt
+   23  ls -l
+   24  vim sources.list
+   25  cd ..
+   26  cd..
+   27  cd //
+   28  cd ..
+   29  cd~
+   30  cd ~
+   31  pwd
+   32  docker images
+   33  docker image
+   34  sudo docker images
+   35  docker pull kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+   36  sudo docker pull kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+   37  sudo docker images 
+   38  sudo docker run -itd --name=myjenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+   39  docker ps -a
+   40  sudo docker ps -a
+   41  curl localhost:8084
+   42  sudo docker exec -it myjenkins /bin/bash
+   43  sudo docker images
+   44  sudo docker ps
+   45  sudo docker kill myjenkins
+   46  sudo docker ps -a
+   47  sudo docker ps 
+   48  sudo docker rm myjenkins
+   49  sudo docker ps 
+   50  sudo docker -a
+   51  sudo docker ps -a
+   52  sudo docker run -itd --name=myjenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+   53  sudo docker ps 
+   54  sudo docker stop
+   55  sudo docker ps
+   56  sudo docker kill myjenkins
+   57  sudo docker run -itd --name=myjenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+   58  sudo docker ps
+   59  sudo docker run -itd --name=myjenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+   60  sudo docker rm myjenkins
+   61  sudo docker run -itd --name=myjenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+   62  sudo docker stop myjenkins
+   63  docker push 
+   64  docker login 
+   65  sudo docker login
+   66  sudo docker rmi
+   67  sudo docker rmi myjernkins
+   68  sudo docker rmi myjenkins
+   69  sudo docker images
+   70  sudo docker ps 
+   71  sudo docker ps -a
+   72  sudo docker rm
+   73  sudo docker rm myjenkis
+   74  sudo docker rm myjenkins
+   75  sudo docker ps
+   76  sudo docker ps -a
+   77  sudo docker rm bold_ganguly
+   78  sudo docker pa
+   79  sudo docker ps
+   80  sudo docker ps -a
+   81  sudo -
+   82  su -
+   83  sudo -
+   84  su -
+   85  sudo docker pull docker pull kmlchauhan/game-of-life-1
+   86  sudo docker pull docker pull kmlchauhan/game-of-life-1:latest
+   87  docker pull --help
+   88  sudo docker pull docker pull kmlchauhan/game-of-life-1:oo
+   89  sudo docker pull kmlchauhan/tomcat-gol
+   90  sudo docker images
+   91  sudo docker run -itd --name=tomcat -p 8084:8080 kmlchauhan/tomcat-gol
+   92  curl localhost:8084
+   93  sudo docker kill
+   94  sudo docker kill tomcat
+   95  sudo docker run -itd --name=tomcat -p 8084:8080 kmlchauhan/tomcat-gol 
+   96  sudo deocker rm tomcat
+   97  sudo docker rm tomcat
+   98  sudo docker run -itd --name=tomcat -p 8084:8080 kmlchauhan/tomcat-gol 
+   99  sudo docker images
+  100  sudo docker ps
+  101  sudo docker stop
+  102  sudo docker stop tomcat
+  103  sudo docker rmi -f tomcat
+  104  sudo docker rm -f tomcat
+  105  sudo docker images
+  106  sudo docker ps
+  107  sudo docker ps -a
+  108  docker images
+  109  sudo docker images
+  110  sudo docker rm -f tomcat
+  111  sudo docker run -itd --name=tomcat -p 8084:8080 kmlchauhan/tomcat-gol 
+  112  sudo docker images
+  113  sudo docker exec -it tomcat /bin/bash
+  114  curl 127.0.0.1:8084
+  115  exit
+  116  ls -l
+  117  sudo docker pull docker pull jenkins
+  118  sudo docker pull jenkins
+  119  jenkins --version
+  120  jenkins -versin
+  121  jenkins --version
+  122  sudo docker run --name=jenkins -p 8084:8080 jenkins
+  123  sudo docker images
+  124  curl localhost:8084
+  125  sudo docker stop tomcat
+  126  sudo docker rm tomcat
+  127  sudo docker imagse
+  128  sudo docker images
+  129  sudo docker ps
+  130  sudo docker run --name=jenkins -p 8084:8080 jenkins
+  131  sudo docker run --name=jenkins1 -p 8084:8080 jenkins
+  132  sudo docker exec -itd jenkins1 /bin/bash
+  133  sudo docker run --name=jenkins1 -p 8084:8080 jenkins
+  134  sudo docker ps
+  135  sudo docker rm jenkins jenkins1 
+  136  sudo docker ps
+  137  sudo docker ps -a
+  138  sudo docker images
+  139  sudo docker run --name=jenkins -p 8084:8080 jenkins
+  140  ls -l
+  141  sudo docker images
+  142  sudo docker ps
+  143  sudo docker exec -itd jenkins /bin/bash
+  144  sudo docker kill hello-world jenkins tomcat 
+  145  sudo docker rmi -f jenkins
+  146  sudo docker rmi -f jenkins1 hello-world tomcat
+  147  sudo docker images
+  148  sudo docker rmi -f kmlchauhan/tomcat-gol kmlchauhan/centos7-jdk8-mvn3-jenkins
+  149  sudo docker images
+  150  sudo docker rmi -f kmlchauhan/centos7-jdk8-mvn3-jenkins
+  151  sudo docker images
+  152  docker pull kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+  153  sudo docker pull kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+  154  sudo docker images
+  155  sudo docker run --name=jenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+  156  sudo docker rm jenkins
+  157  sudo docker run --name=jenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+  158  curl localhost:8084
+  159  sudo docker images
+  160  sudo docker ps
+  161  sudo docker -a
+  162  sudo docker rmi -f kmlchauhan/centos7-jdk8-mvn3-jenkins
+  163  sudo docker rmi -f jenkins
+  164  sudo docker images
+  165  sudo docker ps
+  166  sudo docker ps-a
+  167  sudo docker ps -a
+  168  sudo docker kill jenkins
+  169  sudo docker stop jenkins
+  170  sudo docker rm -f jenkins
+  171  sudo docker images
+  172  sudo docker pull kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+  173  sudo docker run --name=jenkins -p 8084:8080
+  174  sudo docker run --name=jenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+  175  curl localhhost:8084
+  176  sudo docker images
+  177  sudo docker ps
+  178  sudo docker images
+  179  sudo docker run --name=jenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+  180  sudo docker images
+  181  sudo docker stop jenkins
+  182  sudo docker images
+  183  sudo docker ps -a
+  184  sudo docker rmi -f kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+  185  sudo docker ps 
+  186  sudo docker ps -a
+  187  sudo docker rmi -f jenkins
+  188  sudo docker rm jenkins
+  189  sudo docker ps
+  190  sudo docker ps -a
+  191  sudo docker images
+  192  sudo docker pull kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+  193  sudo docker images
+  194  sudo docker ps
+  195  sudo docker run --name=jenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins
+  196  sudo docker run --name=jenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
+  197  sudo kill jenkins
+  198  sudo docker kill jenkins
+  199  sudo docker stop jenkins
+  200  sudo docker rm jenkins
+  201  sudo docker run --name=jenkins -p 8084:8080 kmlchauhan/centos7-jdk8-mvn3-jenkins:2.00
